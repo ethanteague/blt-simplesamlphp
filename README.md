@@ -1,7 +1,7 @@
 Acquia BLT SimpleSAMLPhp
 ====
 
-## This project is no longer maintained
+## Forked b/c original project is no longer maintained
 
 Acquia recommends using the SAML Authentication module instead of SimpleSAMLphp. For more information see https://docs.acquia.com/site-factory/manage/sso
 
