@@ -15,9 +15,6 @@
       "url": "https://packages.drupal.org/8"
     }
   },
-  "require": {
-    "drupal/simplesamlphp_auth": "^3.0"
-  },
   "minimum-stability": "dev",
   "prefer-stable": true,
   "autoload": {
