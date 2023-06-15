@@ -100,7 +100,7 @@ class SimpleSamlPhpCommand extends BltTasks {
 
     $this->say("Copying config files to {$this->repoRoot}/simplesamlphp/metadata...");
     $result = $this->taskFileSystemStack()
-      ->copy("{$this->repoRoot}/vendor/simplesamlphp/simplesamlphp/metadata-templates/saml20-idp-remote.php", "{$this->repoRoot}/simplesamlphp/metadata/saml20-idp-remote.php", TRUE)
+      ->copy("{$this->repoRoot}/vendor/simplesamlphp/simplesamlphp/metadata/saml20-idp-remote.php.dist", "{$this->repoRoot}/simplesamlphp/metadata/saml20-idp-remote.php", TRUE)
       ->setVerbosityThreshold(VerbosityThresholdInterface::VERBOSITY_VERBOSE)
       ->run();
 
